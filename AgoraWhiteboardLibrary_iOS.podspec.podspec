@@ -23,8 +23,9 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
 
   spec.platform     = :ios, "11.0"
-  spec.source_files  = "AgoraWhiteboardLibrary_iOS/DimensionLibrary.framework/Headers/*.{h,m}"
-  spec.vendored_frameworks = 'AgoraWhiteboardLibrary_iOS/DimensionLibrary.framework'  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # spec.source_files  = "AgoraWhiteboardLibrary_iOS/DimensionLibrary.xcframework/Headers/*.{h,m}"
+  spec.vendored_frameworks = 'AgoraWhiteboardLibrary_iOS/DimensionLibrary.xcframework'  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
 end
