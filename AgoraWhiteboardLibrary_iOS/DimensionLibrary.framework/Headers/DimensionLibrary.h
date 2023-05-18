@@ -14,5 +14,6 @@ FOUNDATION_EXPORT double DimensionLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char DimensionLibraryVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <DimensionLibrary/PublicHeader.h>
+
 #import <DimensionLibrary/DimensionClient.h>
 

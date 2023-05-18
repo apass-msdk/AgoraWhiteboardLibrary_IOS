@@ -1,6 +1,0 @@
-framework module DimensionLibrary {
-  umbrella header "DimensionLibrary.h"
-
-  export *
-  module * { export * }
-}
