@@ -2,15 +2,15 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AgoraWhiteboardLibrary_iOS"
-  spec.version      = "0.0.2"
-  spec.summary      = "AgoraWhiteboardLibrary_iOS"
+  spec.version      = "0.1.0"
+  spec.summary      = "A short description of AgoraWhiteboardLibrary_iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-   spec.description   = "AgoraWhiteboardLibrary_iOS"
+   spec.description   = "A short description of AgoraWhiteboardLibrary_iOS"
 
   spec.homepage     = "https://github.com/apass-msdk/AgoraWhiteboardLibrary_iOS.git"
   spec.license      = { :type => "MIT", :file => "LICENSE" }

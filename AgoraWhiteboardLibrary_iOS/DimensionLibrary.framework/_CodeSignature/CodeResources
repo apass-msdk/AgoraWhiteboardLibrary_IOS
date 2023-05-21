@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/DimensionClient.h</key>
+		<data>
+		sEn+ZLlrui8FBclsHfylCNQvORA=
+		</data>
 		<key>Headers/DimensionLibrary.h</key>
 		<data>
 		2iwdZwsQvtFR9BX664eeYlwi7us=
@@ -19,6 +23,17 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/DimensionClient.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sEn+ZLlrui8FBclsHfylCNQvORA=
+			</data>
+			<key>hash2</key>
+			<data>
+			eNRyOoeb6+jvphz9vlNO8UCaSaGDjvbNaogFPNts1R4=
+			</data>
+		</dict>
 		<key>Headers/DimensionLibrary.h</key>
 		<dict>
 			<key>hash</key>
