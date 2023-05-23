@@ -23,11 +23,13 @@ NS_ASSUME_NONNULL_BEGIN
  *  初始化传参
  *  @param uri                      域名
  *  @param ticket               用户一次性可用ticket
- *  @param userId                      用户Id
+ *  @param userId               用户Id
+ *  @param appId                 appId
  */
 - (int)initWithUri:(NSString *)uri
             ticket:(NSString *)ticket
             userId:(NSString *)userId
+             appid:(NSString *)appId
           delegate:(id<DimensionClientDelegate>)delegate;
 
 
