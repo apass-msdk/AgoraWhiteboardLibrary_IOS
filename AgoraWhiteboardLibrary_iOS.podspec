@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AgoraWhiteboardLibrary_IOS"
-  spec.version      = "0.1.1"
+  spec.version      = "0.1.2"
   spec.summary      = "A short description of AgoraWhiteboardLibrary_IOS"
 
   # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |spec|
   spec.static_framework = true
 
   spec.platform     = :ios, "11.0"
-  # spec.source_files  = "AgoraWhiteboardLibrary_iOS/DimensionLibrary.framework/Headers/*.{h,m}"
+  spec.source_files  = "AgoraWhiteboardLibrary_iOS/DimensionLibrary.framework/Headers/*.{h,m}"
   spec.vendored_frameworks = 'AgoraWhiteboardLibrary_iOS/DimensionLibrary.framework'   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
